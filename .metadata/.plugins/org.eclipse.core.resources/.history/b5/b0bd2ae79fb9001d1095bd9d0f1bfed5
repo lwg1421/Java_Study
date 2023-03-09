@@ -1,0 +1,28 @@
+package com.itskb.ws01;
+
+import java.util.Arrays;
+
+public class RandomUtil {
+	
+	public void getRandomInt1(int from, int to) {
+		int[] arr = new int[100];
+		
+		while(arr[99] != 0) {
+			for (int i = 0; i<100; i++) {
+				int newInt = (int) (Math.random()*100/1);
+				if (newInt <from && newInt >to) {
+					arr[i] = newInt;
+				} else {
+					arr[i] = 50;
+				}
+			}
+			
+		}
+		System.out.println(Arrays.toString(arr));
+		
+	}
+
+	public void getRandomInt2(int from, int to) {
+			
+	}
+}

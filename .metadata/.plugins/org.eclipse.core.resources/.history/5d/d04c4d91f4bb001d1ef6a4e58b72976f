@@ -1,0 +1,10 @@
+package com.itskb.ws03.service;
+
+public class Test {
+
+	public static void main(String[] args) {
+		BankService ser = new BankService();
+		ser.getAccountList(1001);
+	}
+
+}

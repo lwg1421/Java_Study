@@ -1,0 +1,19 @@
+package day1;
+
+public class LoopTest2 {
+
+	public static void main(String[] args) {
+		// 1부터 100까지 짝수의 합 구하기
+		int sum = 0;
+		for (int i =1; i<=100; i++) {
+			if (i % 2 == 0) {
+				sum+=i;
+			} else {
+				continue;
+			}
+		}
+		System.out.println(sum);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.kb.cms;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		Car c = new Car();
+		c.drive();
+		System.out.println(c);
+		
+		Bus b = new Bus();
+		b.num = "서울나1235";
+		b.price = 5000;
+		b.seat = 45;
+		b.drive();
+		System.out.println(b);
+	}
+
+}

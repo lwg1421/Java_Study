@@ -1,0 +1,14 @@
+package com.kb.cms;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		Car c = new Car();
+		c.drive();
+		
+		Car b = new Bus();
+		b.drive();
+		System.out.println(b);  //b.toString
+	}
+
+}

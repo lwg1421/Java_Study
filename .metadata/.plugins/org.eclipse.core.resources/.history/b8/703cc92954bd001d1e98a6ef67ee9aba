@@ -1,0 +1,11 @@
+package com.kb.cms;
+
+public class Test {
+
+	public static void main(String[] args) {
+		VipCustomer vc = new VipCustomer();
+		System.out.println(vc);
+
+	}
+
+}

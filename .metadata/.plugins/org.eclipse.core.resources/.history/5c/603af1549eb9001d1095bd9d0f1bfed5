@@ -1,0 +1,16 @@
+package com.itskb.ws01;
+
+public class RandomUtil {
+	
+	public void getRandomInt1(int from, int to) {
+		for (int i = 0; i<100; i++) {
+			int data = (int) (Math.random()*100/1);
+			System.out.print(data);
+		}
+		
+	}
+
+	public void getRandomInt2(int from, int to) {
+			
+	}
+}

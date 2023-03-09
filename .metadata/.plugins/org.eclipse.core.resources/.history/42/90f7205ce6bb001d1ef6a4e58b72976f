@@ -1,0 +1,22 @@
+package com.itskb.ws03.dto;
+
+public class UserDto {
+	
+	// 필드
+	int userSeq;
+	String name;
+	String email;
+	String phone;
+	boolean isSleep;
+	
+	// 기본생성자
+	public UserDto() {
+		
+	}
+	
+	// 생성자
+	public UserDto(int userSeq, String name, String email, String phone, boolean isSleep) {
+		
+	}
+
+}

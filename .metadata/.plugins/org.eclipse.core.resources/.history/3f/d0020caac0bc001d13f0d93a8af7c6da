@@ -1,0 +1,13 @@
+package com.kb.lang;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		int i = 0;
+		i = i+3;
+		
+		int[] su = new int[3];
+		System.out.println(su[0]);
+	}
+
+}

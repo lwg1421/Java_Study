@@ -1,0 +1,27 @@
+package com.kb.day3;
+
+public class MyDate {
+	// 필드
+	int year;
+	int month;
+	int day;
+	
+	public String toString() {
+		return year + "년 " + month + "월 " + day + "일 ";
+	}
+
+	public String toString(int year, int month, int day) {
+		return year + "년 " + month + "월 " + day + "일 ";
+	}
+	
+	// 기본 생성자
+	// 메서드명은 클래스명과 똑같고, 리턴타입이 없어야함.
+	public MyDate() {}
+	
+	// 생성자 직접 정의
+	public MyDate(int y, int m, int d) {
+		year = y;
+		month= m;
+		day = d;
+	}
+}

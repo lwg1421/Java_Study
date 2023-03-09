@@ -1,0 +1,42 @@
+package com.itskb.ws03.service;
+
+import com.itskb.ws03.dto.AccountDto;
+import com.itskb.ws03.dto.UserDto;
+
+public class BankService {
+	
+	// 기본 생성자
+	public BankService() {
+		UserDto u1 = new UserDto(1, "이원근","lwg1421@naver.com","01067761421",false);
+		UserDto u2 = new UserDto(2, "문석진","msg@naver.com","01011111421",true);
+		
+		AccountDto a1 = new AccountDto(1,"937702",10000,1);
+		AccountDto a2 = new AccountDto(2,"158052",8000,2);
+	}
+	
+	// 특정 사용자의 계좌 목록을 배열로 리턴 하는 메소드
+	public String getAccountList(int userSeq){
+		if (BankService.a1.userSeq == userSeq) {
+			return BankService.a1.accountNumber;
+		}
+		
+	}
+	
+	// 특정 사용자의 고객 정보를 리턴 하는 메소드
+	public void getUserDetail(int userSeq){
+				
+			}
+
+	public static void main(String[] args) {
+		
+		final int ACCOUNT_SIZE = 10;
+		final int USER_SIZE = 5;
+		final int ACCOUNT_CURRENT_SIZE;
+		final int USER_CURRENT_SIZE;
+		
+		
+		
+		
+	}
+
+}

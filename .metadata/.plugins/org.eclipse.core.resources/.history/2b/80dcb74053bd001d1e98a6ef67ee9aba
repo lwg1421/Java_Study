@@ -1,0 +1,44 @@
+package com.kb.cms;
+
+public class Customer {
+	int num; //고객번호
+	String name;  //고객이름
+	String address; //고객 주소
+	
+	// 생성자 생성
+	public Customer(int num, String name, String address) {
+		super();
+		this.num = num;
+		this.name = name;
+		this.address = address;
+	}
+
+	// 기본생성자 생성
+	public Customer() {
+		super();		//보이지 않지만 클래스에는 extends object가 기본적으로 붙어있음  //super의 생성자 호출
+		
+	}
+
+	
+	//toString생성
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Customer [num=");
+		builder.append(num);
+		builder.append(", name=");
+		builder.append(name);
+		builder.append(", address=");
+		builder.append(address);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

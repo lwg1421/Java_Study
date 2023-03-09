@@ -1,0 +1,21 @@
+package com.kb.algo;
+
+import java.util.Scanner;
+
+public class Main9103 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		fun(N);
+		
+	}
+	
+	public static void fun(int su) {
+		if (su <=1) {
+			return 1;
+		} else {
+			return su *recursive(--su)
+		}
+
+}

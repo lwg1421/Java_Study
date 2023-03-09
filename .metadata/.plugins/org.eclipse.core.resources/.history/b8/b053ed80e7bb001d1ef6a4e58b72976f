@@ -1,0 +1,31 @@
+package com.itskb.ws03.service;
+
+public class BankService {
+
+	public static void main(String[] args) {
+		
+		final int ACCOUNT_SIZE = 10;
+		final int USER_SIZE = 5;
+		final int ACCOUNT_CURRENT_SIZE;
+		final int USER_CURRENT_SIZE;
+		
+		
+		
+		
+		// 특정 사용자의 계좌 목록을 배열로 리턴 하는 메소드
+		public void getAccountList(int userSeq){
+			
+		}
+		
+		// 특정 사용자의 고객 정보를 리턴 하는 메소드
+		public void getUserDetail(int userSeq){
+			
+		}
+		
+		// 기본 생성자
+		public BankService() {
+			
+		}
+	}
+
+}

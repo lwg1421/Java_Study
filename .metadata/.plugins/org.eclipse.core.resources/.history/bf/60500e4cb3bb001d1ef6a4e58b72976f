@@ -1,0 +1,11 @@
+package com.itskb.ws01;
+
+public class RandomUtilTest {
+
+	public static void main(String[] args) {
+		RandomUtil r1 = new RandomUtil();
+		r1.getRandomInt1(10,110);
+
+	}
+
+}

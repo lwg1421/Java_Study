@@ -1,0 +1,39 @@
+package com.kb.lang;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		String s = new String("IT's your life");	// 힙 공간에 만듦
+		String s1 = new String("IT's your life");
+		String s2 = "Welcome";
+		
+		String s3 = "IT's your life";	// 상수 저장공간에 저장
+		String s4 = "IT's your life";	// 상수 저장공간에 저장
+		
+		System.out.println(s==s1);	//false // == > 번지수가 같냐? > 스택에 저장된 번지수가 다름
+		System.out.println(s.equals(s1));	//true // .equals() > 실제 저장된 값이 같냐? > 같음
+		
+		System.out.println(s3==s4);
+		System.out.println(s3.equals(s4));
+		
+		System.out.println(s==s3);  // 스택에 저장된 번지수를 비교
+		System.out.println(s3==s4);	// 상수 값 자체를 비교
+		
+		System.out.println(s.equals(s3));	// 힙에 저장된 실제 값을 비교
+		
+		System.out.println(s2.indexOf('e'));
+		System.out.println(s3.indexOf("your"));
+		
+		System.out.println(s3.substring(0,4));
+		System.out.println(s3.substring(4,9));
+		System.out.println(s3.substring(1));
+		
+		
+		char ch = 'A';
+		System.out.println(ch);
+		System.out.println(ch++);
+		System.out.println(ch + 0);
+		
+	}
+
+}

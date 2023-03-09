@@ -1,0 +1,15 @@
+package com.kb.algo;
+
+public class RecursiveTest {
+
+	public static void main(String[] args) {
+		recursive(0);
+	}
+	
+	public static void recursive(int su) {
+		System.out.println(su);
+		su +=1;
+		recursive(su);
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.itskb.ws03.service;
+
+import com.itskb.ws03.dto.UserDto;
+
+public class ServiceTest {
+
+	public static void main(String[] args) {
+		
+		
+		UserDto u1 = new UserDto(1, "이원근","lwg1421@naver.com","01067761421",false);
+		UserDto u2 = new UserDto(2, "문석준","msg@naver.com","01011111421",true);
+
+	}
+
+}

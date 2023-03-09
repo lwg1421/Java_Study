@@ -1,0 +1,20 @@
+package com.itskb.ws03.dto;
+
+public class AccountDto {
+	// 필드
+	int accountSeq;
+	String accountNumber;
+	int balance;
+	int userSeq;
+	
+	// 기본생성자
+	public AccountDto() {
+		
+	}
+	
+	// 생성자
+	public AccountDto(int accountSeq, String accountNumber, int balance, int userSeq) {
+		
+	}
+
+}

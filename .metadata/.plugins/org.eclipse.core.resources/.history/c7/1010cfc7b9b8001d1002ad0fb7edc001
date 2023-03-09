@@ -1,0 +1,19 @@
+package day1;
+
+public class OpTest {
+
+	public static void main(String[] args) {
+		// 연산자
+		int a = 100;
+		int b = 3;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b); // 정수형 나누기 정수형을 하면 자바는 정수형만 뱉음. //33을 뱉음
+		System.out.println(a%b); // 나머지 연산자
+		System.out.println(a++); // 후위형 연산자 //해당 라인에서 우선순위가 꼴찌
+		System.out.println(++b); // 전위형 연산자 //해당 라인에서 우선순위가 일등
+
+	}
+
+}

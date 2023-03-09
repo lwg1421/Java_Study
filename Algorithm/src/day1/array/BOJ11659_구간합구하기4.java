@@ -1,6 +1,5 @@
 package day1.array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BOJ11659_구간합구하기4 {
@@ -8,8 +7,8 @@ public class BOJ11659_구간합구하기4 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    
-	    int N = sc.nextInt();
-	    int M = sc.nextInt();
+	    int N = sc.nextInt();	//수의 개수 N
+	    int M = sc.nextInt();	//합을 구해야 하는 횟수 M
 	    
 	    int[] accumArr = new int[N + 1];
 	    

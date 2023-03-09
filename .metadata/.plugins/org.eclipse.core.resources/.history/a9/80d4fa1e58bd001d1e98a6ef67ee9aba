@@ -1,0 +1,41 @@
+package com.kb.cms;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CustManager {
+	List<Customer> cs = new ArrayList<>();
+	// 저장
+	public void save(Customer c) {
+		cs.add(c);
+	}
+	
+	// 검색
+	public void search() {
+		for(Customer c : cs) {
+			System.out.println(c);
+		}
+	}
+	
+	// 상세검색
+	public Customer search(int num) {
+		Customer result = null;
+		for (Customer c : cs) {
+			if (c.num == num) {
+				result = c;
+				break;
+			}
+		}
+		return result;
+	}
+	
+	// 수정
+	public void update(int num, ) {
+		
+	}
+	
+	
+	
+	//삭제
+
+}

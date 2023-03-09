@@ -1,0 +1,16 @@
+package com.kb.day3;
+
+public class MyDate {
+	// 필드
+	int year;
+	int month;
+	int day;
+	
+	public String toString() {
+		return year + "년 " + month + "월 " + day + "일 ";
+	}
+
+	public String toString(int year, int month, int day) {
+		return year + "년 " + month + "월 " + day + "일 ";
+	}
+}

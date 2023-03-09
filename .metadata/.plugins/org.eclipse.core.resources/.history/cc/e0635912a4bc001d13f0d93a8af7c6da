@@ -1,0 +1,21 @@
+package com.kb.cms;
+
+public class Bus extends Car{
+	int seat;
+	
+	public void autoDoor(boolean flag) {
+		if(flag) {
+			System.out.println("open door");
+		} else System.out.println("close door");
+	}
+
+	@Override
+	public String toString() {
+		return "Bus [seat=" + seat + ", num=" + num + ", price=" + price + "]";
+	}
+	
+	
+	
+	
+
+}

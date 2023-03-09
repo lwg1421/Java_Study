@@ -1,0 +1,12 @@
+package com.kb.lang;
+
+public class MathTest {
+
+	public static void main(String[] args) {
+		int su1 = -37;
+		System.out.println(Math.abs(su1));
+				
+		double pi = Math.PI;
+	}
+
+}

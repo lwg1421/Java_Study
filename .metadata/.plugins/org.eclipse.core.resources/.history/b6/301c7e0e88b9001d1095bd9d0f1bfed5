@@ -1,0 +1,12 @@
+package com.kb.arr;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		int[] su = {45,23,15,45,53,32,12,65,72,13};
+		for(int data : su) {
+			System.out.println(data);
+		}
+	}
+
+}

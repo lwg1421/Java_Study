@@ -1,0 +1,10 @@
+package day1.array;
+
+public class BOJ11659_구간합구하기4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
