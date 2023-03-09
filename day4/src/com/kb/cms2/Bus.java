@@ -1,0 +1,35 @@
+package com.kb.cms2;
+
+public class Bus extends Car{
+	int seat;
+	
+	public void autoDoor(boolean flag) {
+		if(flag) {
+			System.out.println("open door");
+		} else System.out.println("close door");
+	}
+	
+	public void drive() {
+		System.out.println("시속 90km로 달립니다~!");
+	}
+
+	@Override
+	public String toString() {
+		return "Bus 좌석: " + seat + ", 번호 : " + num + ", 가격 : " + price;
+	}
+
+	//기본생성자 생성
+	public Bus() {
+		
+	}
+	
+	// 생성자 생성
+	public Bus(String num, int price, int seat) {
+		this.num = num;
+		this.price = price;
+		this.seat = seat;
+	}
+	
+	
+	
+}

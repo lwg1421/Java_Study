@@ -1,0 +1,17 @@
+package com.kb.day3;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 인스턴스 생성
+		MyDate m = new MyDate();
+		// 변수값 할당
+		m.year = 2023;
+		m.month = 3;
+		m.day = 6;
+		// 메서드 호출, 출력
+		System.out.println(m.toString());
+		System.out.println(m);
+	}
+
+}

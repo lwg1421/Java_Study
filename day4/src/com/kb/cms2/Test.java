@@ -1,0 +1,21 @@
+package com.kb.cms2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		CarManager mgr = new CarManager();
+		mgr.save(new Bus("서초차6704",4000000,2));
+		mgr.save(new Bus("서울나1104",8000000,3));
+		mgr.save(new Bus("강남파3304",1000000,1));
+		
+		mgr.search();
+		System.out.println("===========");
+		System.out.println(mgr.search("서울나1104"));
+		
+		mgr.delete("서울나1104");
+		mgr.delete("강남파3304");
+		mgr.search();
+		
+	}
+
+}
