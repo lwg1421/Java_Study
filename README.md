@@ -1,5 +1,4 @@
 # Java_Study
-# KB IT’s your life
 
 - 자바 프로그래밍 기본
     
