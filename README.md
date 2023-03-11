@@ -13,7 +13,7 @@
     [DAY5](https://www.notion.so/DAY5-d121f1fed605480ab8e1c4a4227a085e)
     
 
-- 알고리즘 교육
+- 알고리즘 학습
     
     [DAY6](https://www.notion.so/DAY6-94bad06368c14d199969eb6797d00bd7)
     
