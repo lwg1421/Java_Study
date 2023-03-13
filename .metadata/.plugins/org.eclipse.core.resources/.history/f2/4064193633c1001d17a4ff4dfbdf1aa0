@@ -1,0 +1,10 @@
+package day2.stackQueue;
+
+public class BOJ10986_나머지합 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

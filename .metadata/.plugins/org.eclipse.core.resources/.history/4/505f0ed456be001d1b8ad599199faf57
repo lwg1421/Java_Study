@@ -1,0 +1,9 @@
+package day1.array;
+
+public class BOJ11660_구간합구하기5 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

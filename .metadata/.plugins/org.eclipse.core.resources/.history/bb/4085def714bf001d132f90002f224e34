@@ -1,0 +1,29 @@
+package day2.stackQueue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class BOJ2164_카드2_이원근 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int N = sc.nextInt();	//정수를 입력 받음
+		
+		Queue<Integer > que = new LinkedList();
+		
+		for (int i = 1; i <= N; i++) {	//큐에 1부터 N까지의 값을 담음
+			que.offer(i);
+		}
+		
+		int first;
+		while(que.size() != 1) {
+			que.poll();
+			first = que.poll();
+			que.offer(first);
+		}
+		System.out.println(que.peek());
+	}
+
+}
