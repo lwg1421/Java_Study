@@ -45,7 +45,7 @@ public class BOJ_2961 {
 		isSelected[cnt] = true; // cnt번째 값 뽑음
 		subset(cnt + 1);
 
-		isSelected[cnt] = false;
+		isSelected[cnt] = false; //cnt번째 값 안 뽑음
 		subset(cnt + 1);
 	}
 }
