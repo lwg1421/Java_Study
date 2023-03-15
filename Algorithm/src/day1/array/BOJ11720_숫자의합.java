@@ -17,7 +17,7 @@ public class BOJ11720_숫자의합 {
 			sum += (splitData[i]-'0');
 		}
 		
-		System.out.println(sum);	//결과값 출력
+		System.out.println(sum);	//결과값 출력하기
 	
 	}
 
