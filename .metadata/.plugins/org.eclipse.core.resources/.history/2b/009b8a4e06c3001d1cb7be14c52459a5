@@ -1,0 +1,31 @@
+package quiz_0315_이원근;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Iterator;
+import java.util.StringTokenizer;
+
+// 검은 바둑알 : 1
+// 흰 바둑알 : 2
+// 빈자리 : 0
+
+public class kb1반_알고리즘3번_이원근2 {
+
+	static int[][] goTable = new int[19][19];	//바둑판 생성	
+			
+	public static void main(String[] args) throws IOException {
+		
+		
+		for (int i = 0; i < 19; i++) {
+			for (int j = 0; j < 19; j++) {
+				goTable
+			}
+		}
+		
+
+
+
+	}
+
+}

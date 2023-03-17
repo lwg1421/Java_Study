@@ -1,0 +1,42 @@
+package day6.greedy;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class BOJ1931_회의실배정 {
+
+	static int[][] arr;	//회의 시작, 종료시간을 담을 배열
+	static int N;
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		N = sc.nextInt();	//회의의 수 N
+		arr = new int[N][2];	//시작시간 배열 크기 지정
+		
+		for (int i = 0; i < N; i++) {
+			arr[i][0] = sc.nextInt();	//시작시간 배열에 값 담음
+			arr[i][1] = sc.nextInt();	//종료시간 배열에 값 담음
+		}
+		
+		//2차원 배열 오름차순 정렬 하기
+		Arrays.sort(arr,(o1,o2) ->{
+			return o1[0]-o2[0];
+		});
+		
+		
+	}
+	//선택된 시간 사이에 시작해서 사이에 끝나는 회의가 있는지 찾기
+	public int search(int s, int e) {
+		int leastIndex = 0;
+		for (int i = 0; i < N; i++) {
+			if ((startArr[i] >= s) && (endArr[i] <= e)) {
+				search(startArr[i],endArr[i]);
+			}
+			leastIndex = i;
+			
+		}
+		return leastIndex;
+	}
+
+}

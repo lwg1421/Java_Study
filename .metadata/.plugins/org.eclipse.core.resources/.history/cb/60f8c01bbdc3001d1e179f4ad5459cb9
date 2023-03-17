@@ -1,0 +1,27 @@
+package day6.greedy;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class BOJ1931_회의실배정 {
+
+	static int[] startArr;	//회의 시작시간을 담을 배열
+	static int[] endArr;	//회의 종료시간을 담을 배열
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int N = sc.nextInt();	//회의의 수 N
+		startArr = new int[N];	//시작시간 배열 크기 지정
+		endArr = new int[N];	//종료시간 배열 크기 지정
+		
+		for (int i = 0; i < N; i++) {
+			startArr[i] = sc.nextInt();	//시작시간 배열에 값 담음
+			endArr[i] = sc.nextInt();	//종료시간 배열에 값 담음
+		}
+		
+		//시작시간 최소값 구하기
+		System.out.println(Arrays.stream(startArr).min().getAsInt());
+		
+	}
+
+}

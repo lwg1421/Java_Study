@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class JO9101 {
+
+	static int N;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		N = sc.nextInt();
+		
+	}
+	
+	private static void recursive() {
+		int count = 0;
+		System.out.println("recursive");	
+		count++;
+		if(count<N) {
+			recursive();
+		}
+	}
+
+}

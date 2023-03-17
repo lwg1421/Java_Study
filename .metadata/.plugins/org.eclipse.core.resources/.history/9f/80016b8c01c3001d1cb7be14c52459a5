@@ -1,0 +1,20 @@
+package quiz_0315_이원근;
+
+import java.util.Scanner;
+
+// 조합 사용
+// 서로 다른 N개의 원소에서 중복을 허용하지 않고 3개를 순서 없이 선택하자.
+
+public class kb1반_알고리즘2번_이원근 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();	//받을 숫자 개수
+		int M = sc.nextInt();	//유재석이 불러주는 숫자
+		
+		for (int i = 0; i < N; i++) {
+			
+		}
+	}
+
+}

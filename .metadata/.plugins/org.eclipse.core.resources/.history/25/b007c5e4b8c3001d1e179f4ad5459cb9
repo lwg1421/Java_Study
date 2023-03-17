@@ -1,0 +1,29 @@
+package day6.greedy;
+
+import java.util.Scanner;
+
+public class BOJ2839_설탕배달 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+	
+		//8의 배수인 경우
+		if (N%8 == 0) {
+			System.out.println(N/8*2);
+		}
+		//5의 배수인 경우
+		else if (N % 5 == 0) {
+			
+		}
+		
+		//3의 배수인 경우
+		else if (N%3 == 0) {
+			
+		}
+		
+		//이 외의 경우
+		else System.out.println(-1);
+	}
+
+}

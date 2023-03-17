@@ -1,0 +1,10 @@
+package day5.tree;
+
+public class CompleteBinTree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
