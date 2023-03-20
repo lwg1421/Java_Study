@@ -1,4 +1,6 @@
-# Java_Study
+# JAVA Study
+
+---
 
 - 자바 프로그래밍 기본
     
@@ -12,6 +14,8 @@
     
     [DAY5](https://www.notion.so/DAY5-d121f1fed605480ab8e1c4a4227a085e)
     
+
+---
 
 - 알고리즘 교육
     
@@ -27,17 +31,33 @@
     
     [DAY11 - 그리디](https://www.notion.so/DAY11-9ed7a074a6754e4981ede0e0536fdcfa)
     
-    [DAY12 - 그래프](https://www.notion.so/DAY12-578ff9de2c54423083adf6dd55a4bc43)
+    [DAY12 - 백트래킹 / 그래프](https://www.notion.so/DAY12-578ff9de2c54423083adf6dd55a4bc43)
+    
+    [DAY 13 - ](https://www.notion.so/DAY-13-cb5bd9b6f7f749e594f74daaf3431c40)
+    
+    [DAY 14](https://www.notion.so/DAY-14-c81c185eebce498f9a748b4f966f06f3)
+    
+    [DAY 15](https://www.notion.so/DAY-15-f01f22a919534b778719a7e9327f0a19)
     
 
+---
+
 - 객체지향 JAVA
+
+---
+
 - DB(SQL)
+
+---
+
 - JAVA DB 연결
+
+---
+
 - 웹 프론트/백엔드 개발
+
+---
+
 - Spring 프레임워크
 
-[DAY 13 - ](https://www.notion.so/DAY-13-cb5bd9b6f7f749e594f74daaf3431c40)
-
-[DAY 14](https://www.notion.so/DAY-14-c81c185eebce498f9a748b4f966f06f3)
-
-[DAY 15](https://www.notion.so/DAY-15-f01f22a919534b778719a7e9327f0a19)
+---
