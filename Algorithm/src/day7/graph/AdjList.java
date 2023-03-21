@@ -1,5 +1,6 @@
 package day7.graph;
 
+//인접 리스트 탐색
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;

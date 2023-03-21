@@ -50,6 +50,7 @@ public class AdjMarrix {
 		
 	}
 	
+	//깊이 우선 탐색
 	private static void DFS(int curr) {
 		System.out.print(curr);	//방문
 		for (int i = 0; i < N; i++) {
@@ -61,7 +62,7 @@ public class AdjMarrix {
 		}
 	}
 	
-	//내 주변 노드부터 찾아봄
+	//너비 우선 탐색 //내 주변 노드부터 찾아봄
 	private static void BFS(int start) {
 		Queue<Integer> queue = new LinkedList<>();
 		
