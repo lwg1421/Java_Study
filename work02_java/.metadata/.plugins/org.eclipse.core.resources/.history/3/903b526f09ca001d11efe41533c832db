@@ -1,0 +1,9 @@
+package com.edu.vo;
+
+import com.edu.util.Mydate;
+
+public class Employee {
+	private String name;
+	private Mydate birthdate;
+	private double salary;
+}
