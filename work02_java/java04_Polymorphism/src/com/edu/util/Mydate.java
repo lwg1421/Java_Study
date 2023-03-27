@@ -1,24 +1,23 @@
 package com.edu.util;
 
-public class Mydate {
+public class MyDate {
 	private int year;
 	private int month;
 	private int day;
 	
 	
-	//명시적 생성자
-	public Mydate(int year, int month, int day) {
+	public MyDate(int year, int month, int day) {
 		super();
 		this.year = year;
 		this.month = month;
 		this.day = day;
 	}
 
-
-
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return year + "-" + month + "-" + day;
-	}
+		return year+"-"+month+"-"+day;
+	}		
 }
+
+
+
