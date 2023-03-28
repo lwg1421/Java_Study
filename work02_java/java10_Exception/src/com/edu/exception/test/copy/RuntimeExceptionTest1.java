@@ -1,4 +1,4 @@
-package com.edu.exception.test;
+package com.edu.exception.test.copy;
 
 /*
  * 컴파일 O -> 예외 발생 시 컴파일은 되지만 컴파일러가 인식을 못함
