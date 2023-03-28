@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.edu.vo.Engeineer"/>
+    <fullyQualifiedTypeName name="com.edu.vo.Engineer"/>
     <fullyQualifiedTypeName name="com.edu.vo.Secratary"/>
 </qualifiedTypeNameHistroy>
