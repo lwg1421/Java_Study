@@ -2,7 +2,7 @@
 
 ---
 
-- 자바 프로그래밍 문법
+- 자바 프로그래밍 기본
     
     [DAY1](https://www.notion.so/DAY1-710f9d8784de476bb88c64c148e0c840)
     
@@ -46,18 +46,18 @@
     
     [DAY 17 - 객체지향 자바](https://www.notion.so/DAY-17-126b4f1c459c41b0bcfff2bb112cdfba)
     
-    [DAY 18](https://www.notion.so/DAY-18-d1bb5fbe5b8643e98e771a5665de20bd)
+    [DAY 18 - 추상화, 상속, MVC, static](https://www.notion.so/DAY-18-MVC-static-d1bb5fbe5b8643e98e771a5665de20bd)
     
-    [DAY 19](https://www.notion.so/DAY-19-5a7ed332aa8b46e6a25ce812157f8009)
+    [DAY 19 - Interface, API, Exception](https://www.notion.so/DAY-19-Interface-API-Exception-5a7ed332aa8b46e6a25ce812157f8009)
     
 
 ---
 
 - DB(SQL)
     
-    [DAY 20](https://www.notion.so/DAY-20-1f883fd29f95474fb1d8f35c8ad37edd)
+    [DAY 20 - DB개요, 기본SQL문](https://www.notion.so/DAY-20-DB-SQL-1f883fd29f95474fb1d8f35c8ad37edd)
     
-    [DAY 21](https://www.notion.so/DAY-21-c5df17de42d34656aa6129f0961a8cd3)
+    [DAY 21 - 단일 행 함수, 그룹 함수](https://www.notion.so/DAY-21-c5df17de42d34656aa6129f0961a8cd3)
     
     [DAY 22](https://www.notion.so/DAY-22-d19c7c5ebbbd402bb0c1f034b5bc8a0a)
     
@@ -82,3 +82,5 @@
 - Spring 프레임워크
 
 ---
+
+[ORACLE 설치](https://www.notion.so/ORACLE-1024ee6c8022490695917f22688805aa)
