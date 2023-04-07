@@ -1,5 +1,7 @@
 # JAVA Study
 
+---
+
 - 자바 프로그래밍 기본
     
     [DAY1](https://www.notion.so/DAY1-710f9d8784de476bb88c64c148e0c840)
@@ -64,7 +66,7 @@
 
 - JAVA DB 연결
     
-    [DAY 23](https://www.notion.so/DAY-23-e2c7d5cfa7174b7fad5b7141791b8f86)
+    [DAY 23 - JDBC](https://www.notion.so/DAY-23-JDBC-e2c7d5cfa7174b7fad5b7141791b8f86)
     
     [DAY 24](https://www.notion.so/DAY-24-f0b7e0f062c5491099aa5dbe462efd9b)
     
@@ -73,25 +75,11 @@
 
 ---
 
-- 웹 프론트/백엔드 개발
-
----
-
-- Spring 프레임워크
-
----
-
-[ORACLE 설치](https://www.notion.so/ORACLE-1024ee6c8022490695917f22688805aa)
-
----
-
-- JAVA DB 연결
+- 프로젝트
     
-    [DAY 23](https://www.notion.so/DAY-23-e2c7d5cfa7174b7fad5b7141791b8f86)
+    [DAY26](https://www.notion.so/DAY26-30c03b63789a40d1b728750debd172d9)
     
-    [DAY 24](https://www.notion.so/DAY-24-f0b7e0f062c5491099aa5dbe462efd9b)
-    
-    [DAY 25](https://www.notion.so/DAY-25-8e51430a18514a3baad9c08f5fdf6555)
+    [DAY27](https://www.notion.so/DAY27-3847da730d2349bab649f440a0a9a416)
     
 
 ---
