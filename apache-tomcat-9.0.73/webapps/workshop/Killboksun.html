@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	h1,h2{
+		text-align: center
+	}
+	#parents{
+		width : 800px;
+		border : 5px solid red;
+		margin : 0 auto ;
+		padding : 30px;
+	}
+
+</style>
+</head>
+
+
+<body>
+<div id = "parents">
+<h1>Kill 복 순</h1>
+<h2>==== KB ★ 영화예매 ====</h2>
+<div style="text-align : center;">
+<img alt="길복순" src="./img/kill.png" width = 400px;>
+</div>
+<br>
+<form>
+  상영관 : <select name="brand" >
+    <option value="none">CGV</option>
+  </select>
+  날짜 선택  : <input type = "date" name = "date">
+</form>
+<br>
+<fieldset>
+	<legend>시간선택</legend>
+	<input type = "radio" name = "ratio">08:30
+	<input type = "radio" name = "ratio">11:00
+	<input type = "radio" name = "ratio">14:20
+	<input type = "radio" name = "ratio">17:25
+	<input type = "radio" name = "ratio">20:10
+	<input type = "radio" name = "ratio">23:05
+</fieldset>
+<br>
+요금 <del>₩9,000</del><ins>   ₩5,000</ins>
+<br><br>
+인원<input type = "text" name = "num">
+<br><br>
+금액<input type = "text" name = "cost">
+<br><br>
+<input type = "checkbox" name = "cost">옵션
+<br><br>
+<fieldset>
+	<input type = "radio" name = "pop">팝콘
+	<input type = "radio" name = "coke">콜라
+</fieldset>
+<br><br>
+</div>
+</body>
+</html>
