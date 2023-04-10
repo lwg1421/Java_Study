@@ -15,6 +15,10 @@
 		color: green;
 		font-size: 14px;
 	}
+	.large{
+		color : crimson;
+		font-weight: bold;
+	}
 </style>
 </head>
 <body>
@@ -25,16 +29,19 @@ inline tag
 <h2>State Attribute</h2>
 <form action="#">
 	<h3>Enabled</h3>
-	<input />
+	<input type="text" name = "aa" />
 	
 	<h3>Disabled</h3>
-	<input disabled="disabled"/>
+	<input type="text" name = "bb" disabled="disabled"/>
 	
 	<h3>Readonly</h3>
-	<input readonly="readonly" value="BNK"/>
+	<input type="text" name = "cc" readonly="readonly" value = "BNK"/>
 	
 	<h3>Required</h3>
-	<input required="required"/>
+	<input type="text" name = "dd" required="required"/>
+	
+	<!-- submit은 폼에 입력된 모든 값을 가지고 action에 등록된 페이지로 전송함 -->
+	<input type="submit" value = "DataSend">
 </form>
 <hr>
 <h1 class="center">This heading will not be affected</h1>
