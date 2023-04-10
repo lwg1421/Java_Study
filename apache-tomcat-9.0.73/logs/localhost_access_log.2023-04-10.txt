@@ -7,3 +7,6 @@
 0:0:0:0:0:0:0:1 - - [10/Apr/2023:09:53:36 +0900] "GET /front02_css3/css01_margin.html HTTP/1.1" 200 510
 0:0:0:0:0:0:0:1 - - [10/Apr/2023:09:53:37 +0900] "GET /front02_css3/css01_margin.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [10/Apr/2023:09:56:13 +0900] "GET /front02_css3/css01_margin.html HTTP/1.1" 200 534
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:09:58:54 +0900] "GET /front02_css3/css02_margin.html HTTP/1.1" 200 274
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:10:01:15 +0900] "GET /front02_css3/css02_margin.html HTTP/1.1" 200 429
+0:0:0:0:0:0:0:1 - - [10/Apr/2023:10:01:15 +0900] "GET /front02_css3/css/style.css HTTP/1.1" 200 281
