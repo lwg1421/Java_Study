@@ -2,6 +2,47 @@
 <html lang="en">
 <head>
 <title>CSS Website Layout</title>
+<style type="text/css">
+body {
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.header{
+	text-align: center;
+	background-color: #f1f1f1;
+	padding : 20px;
+}
+.column{
+	width: 33.33%;
+	float : left;
+	padding : 15px;
+}
+.footer{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding : 30px;	
+	margin-top: 30px;
+	clear: both;
+	width: 33.33%;
+	position: absolute;top:50%;left:33%;
+}
+.topnav{
+	background-color: black;
+	padding : 15px;
+	overflow : hidden;
+}
+.topnav>a{
+	font-size: 20px;
+	color : white;
+	padding : 15px;
+	display : inline-block;
+	text-decoration-line: none;
+	float : left;
+}
+
+</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -13,9 +54,9 @@
 </div>
 
 <div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a class = link href="#">Link</a>
+  <a class = link href="#">Link</a>
+  <a class = link href="#">Link</a>
 </div>
 
 <div class="row">
@@ -33,7 +74,7 @@
     <h2>Column</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
- </div>  
+</div>  
  
   <!-- 추가하기 -->
 <div class="footer">
