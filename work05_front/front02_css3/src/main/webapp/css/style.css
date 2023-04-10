@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div {
+/*   border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px; */
+  
+/*   margin : 100px 150px 100px 80px; */
+  
+  margin : 100px;
+  padding : 100px;
+  
+  background-color: lightblue;
+}
