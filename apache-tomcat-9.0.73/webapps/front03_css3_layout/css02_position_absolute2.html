@@ -12,23 +12,26 @@
 		background-color: #e46e80;
 		width: 500px;
 		height: 500px;
+		position : relative;
 	}
 		
 	.green{
 		background-color: #32b9c1;
 		width: 300px;
 		height: 300px;	
-		
-
 	}
 		
 	.blue{
 		background-color: #5195ee;
 		width: 100px;
 		height: 100px;	
-		
-
+		/* 포지셔닝된 가장 가까운 조상요소(green)을 기준으로 위치를 잡는다. 
+		지금은 red를 기준으로 absolute 위치를 잡는다.*/
+		position : absolute;
+		bottom: 40px;
+		right : 10px;
 	}
+	
 	.orange{
 		background-color: #f18575;
 		width: 100px;
