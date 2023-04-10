@@ -2,10 +2,19 @@
 <html>
 <head>
 <style>
+*{
+	box-sizing: border-box;
+}
+
 .box{
 	float: left;
-	width : 25%;
+	width : 33.33%;
 	padding: 50px;
+}
+.clearfix::after{
+	clear : both;
+	content: "";
+	display: table;
 }
 
 </style>
