@@ -2,7 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>요소들간의 간격</title>
+<title>요소들 꽉 채우기</title>
+
+<!-- flex box에서 요소를 꽉 채우고 싶을 때는 
+flex-grow를 사용한다.
+요소를 얼마나 늘릴 지 flow-grow
+요소를 얼마나 줄일 지 flex-shrink -->
 
 <style type="text/css">
 	*{
@@ -16,7 +21,8 @@
 		border: 5px dashed #cacfd9;
 		width: 500px;
 		height: 500px;		
-		
+		display: flex;
+		flex-direction: column;
 	}
 	.box{
 		border-radius: 15px;
@@ -28,12 +34,11 @@
 	}
 	.green{
 	 	background-color: MediumSeaGreen;
-	 
-	 	
-	 	
+	 	flex-grow: 1;
 	 }
 	 .blue{
 	 	background-color: DodgerBlue;
+	 	flex-grow: 2;
 	 }	
 	
 
