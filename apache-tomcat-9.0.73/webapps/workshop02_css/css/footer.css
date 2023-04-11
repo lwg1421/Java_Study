@@ -1,0 +1,14 @@
+footer {
+  background-color: LightGray;
+}
+
+footer ul{
+  list-style-type: none;
+  text-align: right;
+  margin : 5px;
+  padding: 5px 10px;
+}
+footer ul li{
+  margin : 10px 5px;
+  font-weight: bold;
+}

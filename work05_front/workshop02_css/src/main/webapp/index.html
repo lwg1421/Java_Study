@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- article.css | nav.css |  footer.css 외부 파일 연결 -->
+<link rel="stylesheet" type="text/css" href="./css/footer.css">
+<link rel="stylesheet" type="text/css" href="./css/nav.css">
+  <style>
+  	
+	body{
+		clear : both;
+		width : 100%;
+	}
+
+    article {
+      margin-top: 5px;
+      width : 100%;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       gap : 5px;
+      
+      
+    }
+
+   article .main-item {   
+       box-sizing: border-box;
+       width : 32%;
+       margin : 5px;
+       
+    }
+
+    article .main-item img{
+      width: 100%;
+    } 
+    
+    article .main-item h2{
+      margin-top: 5px;
+    } 
+
+    article .main-item p{
+      margin-top: 5px;
+    }
+
+    article .main-item button{
+      margin-top: 5px;
+      padding: 5px;
+      float: right;
+      width: 80px;
+      font-size: 18px;
+    }
+    #banner{
+    	clear:both;
+    	background-color: skyblue;
+    	color : white;
+    	font-weight : bold;
+    	font-size: 30px;
+    	text-align: center;
+    	padding : 7px;
+    	margin-top: 5px;
+    }
+    
+  </style>
+  <title>IT's KB</title>
+</head>
+<body>
+  <div id="container">
+    <nav id = "navi">
+      <ul>
+        <li class="nav-item logo"><img src="logo.jpg" alt=""></li>
+        <li class="nav-item"><a href="personal.html">개인</a></li>
+        <li class="nav-item"><a href="busines.html">기업</a></li>
+        <li class="nav-item"><a href="login.html">로그인</a></li>
+        <li class="nav-item"><a href="register.html">회원가입</a></li>
+      </ul>
+    </nav>
+    <div id="banner">지금 당신의 행복! IT's KB Life!</div>
+    <article>
+      <div class="main-item">
+        <img src="https://picsum.photos/200" alt="">
+        <h2>main-item 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>button 1</button>
+      </div>
+      <div class="main-item">
+        <img src="https://picsum.photos/200" alt="">
+        <h2>main-item 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>button 2</button>
+      </div>
+      <div class="main-item">
+        <img src="https://picsum.photos/200" alt="">
+        <h2>main-item 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>button 3</button>
+      </div>
+    </article>
+    
+    <footer>
+      <ul>
+        <li class="address">12345 address 1 address 2 address 3</li>
+        <li class="phone">02-0000-0000</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
