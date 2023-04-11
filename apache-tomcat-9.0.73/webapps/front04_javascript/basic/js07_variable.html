@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var myName = "Peter";	//전역번수
+	
+	function showInfo(){
+		myAge = 22;	//전역변수
+		/* console.info(myAge); */
+		let age = 33;	//로컬변수
+		var yourAge = 44;
+	}
+	
+	showInfo();
+	console.info(myAge);
+	console.info(myName);
+	/* console.info(age); */
+	console.info(yourAge);
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

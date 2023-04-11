@@ -206,3 +206,15 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:00:42 +0900] "GET /front02_css3/css06_flexbox2.html HTTP/1.1" 200 976
 0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:00:43 +0900] "GET /front02_css3/css06_flexbox2.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:01:06 +0900] "GET /front02_css3/css06_flexbox2.html HTTP/1.1" 200 988
+127.0.0.1 - - [11/Apr/2023:11:29:12 +0900] "GET / HTTP/1.1" 200 11428
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:29:12 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 200 524
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:29:21 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 200 524
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:29:27 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 200 525
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:30:04 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 200 526
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:31:43 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 200 632
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:41:29 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:41:30 +0900] "GET /front04_javascript/basic/js01_datatype.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:41:35 +0900] "GET /front04_javascript/basic/js02_onload.html HTTP/1.1" 200 506
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:41:38 +0900] "GET /front04_javascript/basic/js02_onload.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:41:39 +0900] "GET /front04_javascript/basic/js02_onload.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:13:08:06 +0900] "GET /front04_javascript/basic/js02_onload.html HTTP/1.1" 200 508
