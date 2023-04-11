@@ -3,8 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript">
+	function showName(){
+		let nickName = document.loginFrm.nick.value;
+		alert(nickName);
+		document.loginFrm.nick.value="";
+		document.loginFrm.hobby.focus();
+	}
+	function showHobby(){
+		let hobby = document.loginFrm.hobby;
+		alert(hobby.value);
+		hobby.value="";
+		document.loginFrm.hobby.focus();
+	}
+	
+	
+</script>
 </head>
 <body>
-
+<form action="#" name="loginFrm">
+닉네임 <input type="text" name="nick" id="nick">
+<input type="button" value="닉네임보기" onclick="showName()">
+<br><br>
+취미 <input type="text" name="hobby" id="hobby">
+<input type="button" value="취미보기" onclick="showHobby()">
+</form>
 </body>
 </html>
