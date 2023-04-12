@@ -67,11 +67,10 @@ footer ul li{
 </style>
 <title>IT's KB - register</title>
 <script type="text/javascript">
-		function checkPass() {
+		function register() {
 			let passOne = document.querySelector("form-item>#password");
 			let passTwo = document.querySelector("form-item>#password2");			
-			alert(passOne.value);
-			alert(passTwo.value);
+			
 			if(passOne.value != passTwo.value){
 				alert("비밀번호가 일치하지 않습니다.")
 				passOne.value="";
@@ -96,7 +95,7 @@ footer ul li{
     <div id="banner">지금 당신의 행복! IT's KB Life!</div>
     <div id="register">
       <h1>Register</h1>
-      <form action="#">
+      <form action="index.html">
         <div class="form-item">
           <label for="name">이름</label>
           <input type="text" id="name" required="required">
@@ -124,7 +123,7 @@ footer ul li{
         
         <hr>
         <div id ="homeRegister">
-	        <button type="button" onclick="checkPass()">회원 가입</button>
+	        <button type="submit" onclick="register()">회원 가입</button>
 	        <button type="button" onclick="location.href='./index.html' ">홈</button>
         </div>
       </form>
