@@ -1,5 +1,5 @@
 # JAVA Study
-
+---
 - 자바 프로그래밍 기본
     
     [DAY1](https://www.notion.so/DAY1-710f9d8784de476bb88c64c148e0c840)
