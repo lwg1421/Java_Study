@@ -9,7 +9,7 @@
 <body>
 <h2>단순 회원 검색하기</h2>
 <form action="front.do" method="post">
-	<input type="hidden" name="command" value = "register">
+	<input type="hidden" name="command" value = "find">
 	조회할 ID <input type="text" name="id" required="required">
 	<input type="submit" name="회원조회">
 </form>

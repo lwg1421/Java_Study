@@ -2,6 +2,8 @@
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <%
 	ArrayList<MemberVO> list = (ArrayList)request.getAttribute("list");
 %>
@@ -14,6 +16,7 @@
  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <title>Insert title here</title>
 </head>
 <body>
@@ -21,19 +24,20 @@
 	<h2>Member List</h2>
 	<p>.The member class state...table tag...</p>
 	<table  class="table table-dark">
-	<%
-		for(MemberVO v:list){
-	%>
+	<tr>
+		<th>ID</th>
+		<th>NAME</th>
+		<th>ADDRESS</th>
+	</tr>
+	<c:forEach var="vo" items="${list}">
 		<tr>
-			<td><%= v.getId() %></td>
-			<td><%= v.getName() %></td>
-			<td><%= v.getAddress() %></td>
+			<td>${vo.id}</td>
+			<td>${vo.name}</td>
+			<td>${vo.address}</td>
 		</tr>
-	<%
-		}
-	%>
+	</c:forEach>
 	</table>
-	<h4 align="right"><a href="index.html">INDEX</a></h4>
+	<h4 align="right"><a href="index.jsp">INDEX</a></h4>
 </div>
 </body>
 </html>

@@ -29,19 +29,20 @@ public class FrontController extends HttpServlet {
 	}
 	
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("utf-8");
-		response.setContentType("text/html;charset=utf-8");
-		
+		System.out.println("dopro..request..");
 		String command = request.getParameter("command");
-		String path = "index.html";
+		String path = "index.jsp";
 		if(command.equals("register")) {
 			path = register(request,response);
 		} else if (command.equals("find")) {
+			System.out.println("find...");
 			path = find(request,response);
 		} else if (command.equals("login")) {
 			path = login(request,response);
 		} else if (command.equals("showAll")) {
 			path = showAll(request,response);
+		} else if (command.equals("update")) {
+			path = update(request,response);
 		}
 		request.getRequestDispatcher(path).forward(request, response);
 	}	//doProcess
@@ -63,7 +64,7 @@ public class FrontController extends HttpServlet {
         MemberVO pvo = new MemberVO(id, password, name, address);
         
         // 4. DAO 리턴받아서 비지니스 로직 호출
-        String path = "index.html";	//기본값으로 하나 만들어둠
+        String path = "index.jsp";	//기본값으로 하나 만들어둠
         try {
         	MemberDAOImpl.getInstance().registerMember(pvo);
         	path = "register_result.jsp";
@@ -107,7 +108,7 @@ public class FrontController extends HttpServlet {
         //2.폼값 받아서
         String id = request.getParameter("id");
         String password = request.getParameter("password");
-        String path = "index.html";
+        String path = "index.jsp";
         try {
         	MemberVO rvo = MemberDAOImpl.getInstance().login(id, password);
         	HttpSession session= request.getSession();
@@ -142,6 +143,37 @@ public class FrontController extends HttpServlet {
 	
 	//쿠키는 서블릿이 생성되는 시점에 같이 생성된다.
 	
+	
+	private String update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1.양방향 한글처리
+		request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
+        
+        //2. 폼값 받는다
+        String id = request.getParameter("id");
+        String password = request.getParameter("password");
+        String name = request.getParameter("name");
+        String address = request.getParameter("address");
+        
+        //3. (VO객체 생성)
+        MemberVO pvo = new MemberVO(id, password, name, address);
+        
+        // 4. DAO 리턴받아서 비지니스 로직 호출
+        String path = "index.jsp";	//기본값으로 하나 만들어둠
+        try {
+        	MemberDAOImpl.getInstance().updateMember(pvo);
+        	//수정된 객체의 내용을 반드시 바인딩..세션
+        	HttpSession session=request.getSession();
+        	if(session.getAttribute("vo")!=null) {
+        		session.setAttribute("vo", pvo);
+        	}
+        	path = "update_result.jsp";
+        }catch(Exception e) {
+        	
+        }
+        return path;
+        
+	}
 	
 	
 	

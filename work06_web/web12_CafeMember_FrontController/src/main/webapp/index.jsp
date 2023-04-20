@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,13 +22,21 @@ a:hover {
 <body>
 <div class="container">
 	<div class="jumbotron" align="center">
-		<h1> DBì—°ë™ìœ¼ë¡œ Cafe Member Manage</h1>
+		<h1> DB¿¬µ¿À¸·Î Cafe Member Manage</h1>
 	</div>
 	<ul>
-		<li><a href="register.jsp">íšŒì› ê°€ì… í•˜ê¸°</a></li>
-		<li><a href="find.jsp">íšŒì› ê²€ìƒ‰ í•˜ê¸°</a></li>
-		<li><a href="front.do?command=showAll">ì „ì²´ íšŒì› ë³´ê¸°</a></li>
-		<li><a href="login.jsp">ë¡œê·¸ì¸í•˜ê¸°</a></li>
+		<li><a href="find.jsp">È¸¿ø °Ë»ö ÇÏ±â</a></li>
+		<c:if test="${!empty vo }">
+		
+				<li><a href="front.do?command=showAll">ÀüÃ¼ È¸¿ø º¸±â</a></li>
+				<li><a href="update.jsp">È¸¿øÁ¤º¸ ¼öÁ¤ÇÏ±â</a></li>			
+			</c:if>
+			<c:if test="${!empty vo }">
+				<li><a href="register.jsp">È¸¿ø °¡ÀÔ ÇÏ±â</a></li>
+				<li><a href="login.jsp">·Î±×ÀÎÇÏ±â</a></li>			
+			</c:if>
+		
+		
 	</ul>
 </div>
 </body>
